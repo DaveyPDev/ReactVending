@@ -1,0 +1,16 @@
+vendingmachine.js
+
+line 23
+setSelectedInput(key);
+
+spent way too much time on this but landed at
+
+either displays gifs but keypad doesn't display properly
+setSelectedInput(key);
+
+or 
+
+keypad displays properly but no gifs
+
+line 23
+setSelectedInput(selectedInput + key);

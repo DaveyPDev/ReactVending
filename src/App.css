@@ -1,0 +1,90 @@
+.Vending-Machine-Image {
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.Vending-Machine-Container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.Right-Container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.SelectedInput {
+	text-align: center;
+	font-size: 65px;
+	font-family: 'Digital-7', sans-serif;
+	color: #ff0000;
+	background-color: black;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 75px;
+	margin-bottom: 35px;
+}
+
+.Keypad {
+	text-align: center;
+	position: fixed;
+	transform: translateY(200%);
+	width: 100%;
+	padding: 20px;
+}
+
+.Keypad button {
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	margin: 2px;
+}
+
+.Loading-Gif-Container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.ItemList {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.Layout-Container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 20px;
+}
+
+.ItemList {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.Vending-Machine {
+	flex: 2;
+	display: flex;
+	align-items: flex-start;
+}
+
+.Vending-Machine-Image {
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	display: block;
+	margin: 0 auto;
+}
